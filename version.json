@@ -1,6 +1,6 @@
 {
-  "code": 10,
-  "name": "1.9",
-  "was": "Aufgeräumt: zwei Drittel weniger Text im Trainingsreiter, Planwechsel oben in der Kopfzeile, Begründungen erst auf Tippen. Neue Katzen-Zeichen für Trainer, Plan, Verlauf und Übungen. Ein leerer Plan ist keine Sackgasse mehr.",
-  "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.9/StrongSnorbs-1.9.apk"
+  "code": 13,
+  "name": "1.12",
+  "was": "Profil oben rechts als Menü für Benachrichtigungen, Sicherung und Version. Trainingsplan steht sichtbar oben statt hinter dem Bild. Wischen zwischen den Reitern. Zurück geht genau einen Schritt. Leistungsdaten im Profil. Ein leerer Trainingstag gilt nicht mehr als leerer Plan.",
+  "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.12/StrongSnorbs-1.12.apk"
 }
