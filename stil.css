@@ -1,0 +1,52 @@
+/* Strong Snorbs — Seiten. Bewusst schlicht: es sind drei Textseiten. */
+:root{
+  --grund:#F4EFE9; --flaeche:#FFFDFB; --linie:#EAE1D7;
+  --text:#3A2F27; --text-2:#7D6E62; --text-3:#A89A8E;
+  --braun:#6B4227; --akzent:#8F6248; --akzent-hell:#F3E7DD;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --grund:#1B1614; --flaeche:#231D1A; --linie:#3A302A;
+    --text:#F0E7DE; --text-2:#BFAE9F; --text-3:#8D7D70;
+    --braun:#8A5A3A; --akzent:#D8A98A; --akzent-hell:#2C2219;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--grund); color:var(--text);
+  font:16px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif;
+  padding:0 16px;
+}
+.blatt{max-width:660px; margin:0 auto; padding:40px 0 64px}
+header{display:flex; align-items:center; gap:14px; margin-bottom:34px}
+header .zeichen{
+  width:52px; height:52px; flex:0 0 auto; border-radius:14px;
+  background:var(--akzent-hell); color:var(--akzent);
+  display:flex; align-items:center; justify-content:center;
+}
+header .zeichen svg{width:34px; height:29px}
+header h1{margin:0; font-size:25px; letter-spacing:-.01em}
+header p{margin:2px 0 0; color:var(--text-2); font-size:14px}
+h2{font-size:19px; margin:32px 0 10px; letter-spacing:-.01em}
+h2:first-of-type{margin-top:0}
+p, li{color:var(--text-2)}
+p strong, li strong{color:var(--text)}
+ul{padding-left:20px}
+li{margin:5px 0}
+a{color:var(--akzent)}
+.kasten{
+  background:var(--flaeche); border:1px solid var(--linie);
+  border-radius:12px; padding:18px 20px; margin:22px 0;
+}
+.kasten p:first-child{margin-top:0}
+.kasten p:last-child{margin-bottom:0}
+.knopf{
+  display:inline-block; background:var(--braun); color:#F7EFE6;
+  text-decoration:none; padding:11px 20px; border-radius:10px;
+  font-weight:600; margin-top:6px;
+}
+nav{margin-top:44px; padding-top:20px; border-top:1px solid var(--linie);
+  display:flex; gap:18px; flex-wrap:wrap; font-size:14px}
+nav a{color:var(--text-3); text-decoration:none}
+nav a:hover{color:var(--akzent)}
+.stand{margin-top:26px; font-size:13px; color:var(--text-3)}
