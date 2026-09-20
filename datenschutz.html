@@ -33,7 +33,7 @@
 </div>
 
 <h2>Wer verantwortlich ist</h2>
-<p>Alexander Snorb Thomas<br>
+<p>Alexander Thomas<br>
 <a href="mailto:alextho2303@gmail.com">alextho2303@gmail.com</a></p>
 <p>Strong Snorbs ist ein privates Projekt ohne kommerziellen Zweck.</p>
 
@@ -42,7 +42,10 @@
 <ul>
   <li>Trainingspläne, Übungen, Sätze, Gewichte und Wiederholungen</li>
   <li>Notizen und Geräteeinstellungen, die du zu einzelnen Übungen hinterlegst</li>
-  <li>Dein Körpergewicht, wenn du es einträgst</li>
+  <li>Dein Körpergewicht und deine Körpermasse, wenn du sie einträgst</li>
+  <li>Deine Schritte, wenn du den Schrittzähler erlaubst</li>
+  <li>Fortschrittsfotos, wenn du welche aufnimmst. Sie liegen verschlüsselt im
+      App-Speicher und lassen sich nur nach Entsperren des Gerätes ansehen</li>
   <li>Ein Profilbild, wenn du eines auswählst</li>
 </ul>
 <p>Diese Daten verlassen dein Gerät nicht von allein. Es gibt keinen Server, auf den
@@ -64,13 +67,39 @@ sie übertragen werden, und keinen Zugriff durch mich.</p>
   <li><strong>Vibration</strong> für das Signal am Pausenende.</li>
   <li><strong>Wecker</strong>, damit die Pausenuhr auch dann pünktlich ist, wenn das
       Handy im Ruhezustand liegt.</li>
-  <li><strong>Internet</strong> nur für zwei Dinge, die beide freiwillig sind: die
+  <li><strong>Körperliche Aktivität</strong> für den Schrittzähler, den dein Handy
+      ohnehin führt. Die App liest ihn nur ab. Lehnst du ab, bleibt die
+      Schritteanzeige leer und sonst ändert sich nichts.</li>
+  <li><strong>Internet</strong> für zwei Dinge, die beide freiwillig sind: die
       Sicherung in dein Google Drive und die Suche nach einer neueren Version der
-      App. Ohne beides läuft die App vollständig offline.</li>
+      App. Lässt du beides aus, verbindet sich die App nicht nach draußen.</li>
+  <li><strong>Apps installieren</strong>, damit ein gefundenes Update sich nach
+      deiner Bestätigung selbst einspielen kann. Angefordert wird das erst in dem
+      Moment, in dem du auf Installieren tippst.</li>
 </ul>
 <p>Die App fordert keinen Zugriff auf Speicher, Kamera, Mikrofon oder Standort an.
 Wenn du ein Profilbild auswählst, öffnet sich die Bildauswahl von Android, und die
-App bekommt genau dieses eine Bild — keinen Zugriff auf deine Galerie.</p>
+App bekommt genau dieses eine Bild und keinen Zugriff auf deine Galerie.</p>
+
+<h2>Health Connect</h2>
+<p>Ab Android 14 kann sich die App mit <strong>Health Connect</strong> verbinden,
+dem Gesundheitsspeicher, der im System eingebaut ist. Das ist freiwillig und
+standardmäßig aus. Erst wenn du im Profil unter „Verbundene Apps“ darauf tippst,
+fragt Android dich nach der Erlaubnis, und zwar einzeln je Datensorte.</p>
+<ul>
+  <li><strong>Lesen</strong> kann die App dein Gewicht, deine Körpergröße und deine
+      Schritte. Geholt wird nichts von allein, sondern nur, wenn du auf den
+      entsprechenden Knopf drückst. Vorhandene eigene Einträge werden dabei nicht
+      überschrieben.</li>
+  <li><strong>Schreiben</strong> kann die App dein Gewicht, wenn du es einträgst,
+      und nach einer beendeten Einheit den Zeitblock, also dass und wie lange du
+      trainiert hast. Letzteres ist ein eigener Schalter und ab Werk aus. Die
+      einzelnen Sätze mit Gewicht und Wiederholungen werden nie hinausgeschrieben.</li>
+</ul>
+<p>Health Connect liegt auf deinem Gerät. Diese Daten gehen dabei weder an mich noch
+an einen Server. Welche Apps dort lesen und schreiben dürfen, siehst und änderst du
+jederzeit in den Android-Einstellungen unter Health Connect, unabhängig von dieser
+App.</p>
 
 <h2>Sicherung in deinem Google Drive</h2>
 <p>Du kannst dich freiwillig mit deinem Google-Konto anmelden, damit die App eine
@@ -78,7 +107,7 @@ Sicherungsdatei in deinem eigenen Drive ablegt. Das ist ausgeschaltet, solange d
 es nicht selbst einschaltest.</p>
 <p>Die App fragt dabei ausschließlich die Berechtigung
 <code>drive.file</code> an. Diese erlaubt Zugriff auf <strong>genau die Dateien, die
-die App selbst anlegt</strong> — sie kann den übrigen Inhalt deines Drive weder
+die App selbst anlegt</strong>. Sie kann den übrigen Inhalt deines Drive weder
 lesen noch durchsuchen noch löschen.</p>
 <p>Die Sicherungsdatei liegt in deinem Konto, nicht bei mir. Du kannst sie jederzeit
 löschen. Die Verbindung zum Konto kannst du jederzeit trennen, in der App oder unter
