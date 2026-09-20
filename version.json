@@ -1,6 +1,1 @@
-{
-  "code": 13,
-  "name": "1.12",
-  "was": "Profil oben rechts als Menü für Benachrichtigungen, Sicherung und Version. Trainingsplan steht sichtbar oben statt hinter dem Bild. Wischen zwischen den Reitern. Zurück geht genau einen Schritt. Leistungsdaten im Profil. Ein leerer Trainingstag gilt nicht mehr als leerer Plan.",
-  "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.12/StrongSnorbs-1.12.apk"
-}
+{"code": 17, "name": "1.16", "was": "Cardio rechnet nicht mehr in Kilogramm: je Gerät die passenden Werte wie Tempo, Steigung, Widerstand und Schlagzahl, dazu Zeit, Distanz und Puls. Eigene Zeichnungen für die Cardiogeräte.", "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.16/StrongSnorbs-1.16.apk"}
