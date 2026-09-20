@@ -1,1 +1,6 @@
-  {"code": 23, "name": "1.22", "was": "Verbundene Apps: Health Connect ist angebunden, und damit auch Google Fit, Samsung Health, OHealth, Fitbit und Garmin. Die Suche versteht jetzt Umgangssprache, Latziehen findet den Latzug. Rückgängig nach dem Verwerfen einer Einheit, zuletzt getauschte Übungen oben in der Liste, klarere Zeichen im Kalender.", "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.22/StrongSnorbs-1.22.apk"}
+{
+  "code": 26,
+  "name": "1.0",
+  "was": "Die erste fertige Fassung. Alles davor war Alpha. Neu darin: Verbundene Apps über Health Connect, und damit auch Google Fit, Samsung Health, OHealth, Fitbit und Garmin. Die Suche versteht Umgangssprache, Latziehen findet den Latzug. Übungen lassen sich dauerhaft austauschen, nicht nur für heute. Notizen und Sitzeinstellungen behalten ihre früheren Stände. Rückgängig nach dem Verwerfen einer Einheit, klarere Zeichen im Kalender.",
+  "apk": "https://github.com/Demontiic/strong-snorbs/releases/download/v1.0/StrongSnorbs-1.0.apk"
+}
