@@ -77,16 +77,6 @@ Beides kannst du bleiben lassen, die App arbeitet dann genauso weiter. Es gibt
 keinen Server, auf dem deine Zahlen landen, und niemanden, der sie auswerten
 könnte.
 
-## Unterstützen
-
-Die App kostet nichts und wird nichts kosten. Wenn sie dir trotzdem etwas wert ist,
-kannst du gern etwas beisteuern:
-
-**PayPal an `alextho2303@gmail.com`**
-
-Freiwillig, und es ändert nichts. Es gibt keine Fassung mit mehr Funktionen und
-nichts, was nur Zahlende sehen.
-
 ## Haftung
 
 Ich bin kein Arzt und kein Trainer. Die Empfehlungen in der App beruhen auf der
